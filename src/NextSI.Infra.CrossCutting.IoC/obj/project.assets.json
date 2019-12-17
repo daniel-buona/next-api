@@ -1,0 +1,145 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.1": {
+      "sha512": "VnytRin0q78cwdhZZ5YAO+6cg0By0iJkk9IoK/vE1vI0qMM6oOjlXNlEFdDRtMXsAmxMPNaRcnpgEJCTe8l76Q==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Application\\NextSI.Application.csproj",
+      "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Domain\\NextSI.Domain.csproj",
+      "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Infra.Data\\NextSI.Infra.Data.csproj",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 3.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\danie\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Edesoft\\Next\\NextSIApp\\src\\NextSI.Infra.CrossCutting.IoC\\NextSI.Infra.CrossCutting.IoC.csproj",
+      "projectName": "Equinox.Infra.CrossCutting.IoC",
+      "projectPath": "C:\\Edesoft\\Next\\NextSIApp\\src\\NextSI.Infra.CrossCutting.IoC\\NextSI.Infra.CrossCutting.IoC.csproj",
+      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+      "outputPath": "C:\\Edesoft\\Next\\NextSIApp\\src\\NextSI.Infra.CrossCutting.IoC\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Application\\NextSI.Application.csproj": {
+              "projectPath": "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Application\\NextSI.Application.csproj"
+            },
+            "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Domain\\NextSI.Domain.csproj": {
+              "projectPath": "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Domain\\NextSI.Domain.csproj"
+            },
+            "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Infra.Data\\NextSI.Infra.Data.csproj": {
+              "projectPath": "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Infra.Data\\NextSI.Infra.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          }
+        },
+        "imports": [
+          "portable-net45+win8+wp8+wpa81",
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Domain\\NextSI.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Domain\\NextSI.Domain.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Infra.Data\\NextSI.Infra.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Infra.Data\\NextSI.Infra.Data.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Application\\NextSI.Application.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Edesoft\\Next\\NextSIApp\\src\\Equinox.Application\\NextSI.Application.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}

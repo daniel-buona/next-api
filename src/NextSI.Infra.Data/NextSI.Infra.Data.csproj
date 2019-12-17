@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Equinox.Infra.Data</AssemblyName>
+    <PackageId>Equinox.Infra.Data</PackageId>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191028211356_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191028222756_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191028224055_InitialMigrati.cs" />
+    <Compile Remove="Migrations\20191028224123_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191028225156_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191028225233_AddUser.cs" />
+    <Compile Remove="Migrations\20191028225819_AddUser.cs" />
+    <Compile Remove="Migrations\20191101095813_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191101100018_UpdateUser.cs" />
+    <Compile Remove="Migrations\20191101121601_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191101121912_User.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.0.1" />
+    <PackageReference Include="MySqlConnector" Version="0.61.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.0.1" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NextSI.Infra.CrossCutting.Tools\NextSI.Infra.CrossCutting.Tools.csproj" />
+    <ProjectReference Include="..\Equinox.Domain\NextSI.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.hosting.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

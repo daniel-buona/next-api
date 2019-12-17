@@ -1,0 +1,9 @@
+C:\Edesoft\Next\NextSIApp\src\Equinox.Domain.Core\bin\Debug\netcoreapp2.2\Equinox.Domain.Core.deps.json
+C:\Edesoft\Next\NextSIApp\src\Equinox.Domain.Core\bin\Debug\netcoreapp2.2\Equinox.Domain.Core.dll
+C:\Edesoft\Next\NextSIApp\src\Equinox.Domain.Core\bin\Debug\netcoreapp2.2\Equinox.Domain.Core.pdb
+C:\Edesoft\Next\NextSIApp\src\Equinox.Domain.Core\obj\Debug\netcoreapp2.2\Equinox.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Edesoft\Next\NextSIApp\src\Equinox.Domain.Core\obj\Debug\netcoreapp2.2\Equinox.Domain.Core.AssemblyInfoInputs.cache
+C:\Edesoft\Next\NextSIApp\src\Equinox.Domain.Core\obj\Debug\netcoreapp2.2\Equinox.Domain.Core.AssemblyInfo.cs
+C:\Edesoft\Next\NextSIApp\src\Equinox.Domain.Core\obj\Debug\netcoreapp2.2\Equinox.Domain.Core.dll
+C:\Edesoft\Next\NextSIApp\src\Equinox.Domain.Core\obj\Debug\netcoreapp2.2\Equinox.Domain.Core.pdb
+C:\Edesoft\Next\NextSIApp\src\Equinox.Domain.Core\obj\Debug\netcoreapp2.2\Equinox.Domain.Core.csprojAssemblyReference.cache

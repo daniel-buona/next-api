@@ -1,0 +1,17 @@
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\Equinox.Application.deps.json
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\Equinox.Application.dll
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\Equinox.Application.pdb
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\Equinox.Domain.Core.dll
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\Equinox.Domain.dll
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\Equinox.Infra.Data.dll
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\Equinox.Domain.pdb
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\Equinox.Infra.Data.pdb
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\bin\Debug\netcoreapp2.2\Equinox.Domain.Core.pdb
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\obj\Debug\netcoreapp2.2\Equinox.Application.csprojAssemblyReference.cache
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\obj\Debug\netcoreapp2.2\Equinox.Application.csproj.CoreCompileInputs.cache
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\obj\Debug\netcoreapp2.2\Equinox.Application.AssemblyInfoInputs.cache
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\obj\Debug\netcoreapp2.2\Equinox.Application.AssemblyInfo.cs
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\obj\Debug\netcoreapp2.2\Equinox.Application.csproj.CopyComplete
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\obj\Debug\netcoreapp2.2\Equinox.Application.dll
+C:\Edesoft\Next\NextSIApp\src\Equinox.Application\obj\Debug\netcoreapp2.2\Equinox.Application.pdb
