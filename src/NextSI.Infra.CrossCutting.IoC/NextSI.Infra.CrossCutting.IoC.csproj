@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <AssemblyName>Equinox.Infra.CrossCutting.IoC</AssemblyName>
-    <PackageId>Equinox.Infra.CrossCutting.IoC</PackageId>
+    <AssemblyName>NextSI.Infra.CrossCutting.IoC</AssemblyName>
+    <PackageId>NextSI.Infra.CrossCutting.IoC</PackageId>
     <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
@@ -11,9 +11,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Equinox.Application\NextSI.Application.csproj" />
-    <ProjectReference Include="..\Equinox.Domain\NextSI.Domain.csproj" />
-    <ProjectReference Include="..\Equinox.Infra.Data\NextSI.Infra.Data.csproj" />
+    <ProjectReference Include="..\NextSI.Application\NextSI.Application.csproj" />
+    <ProjectReference Include="..\NextSI.Domain\NextSI.Domain.csproj" />
+    <ProjectReference Include="..\NextSI.Infra.Data\NextSI.Infra.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

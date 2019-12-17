@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <AssemblyName>Equinox.Domain.Core</AssemblyName>
-    <PackageId>Equinox.Domain.Core</PackageId>
+    <AssemblyName>NextSI.Domain.Core</AssemblyName>
+    <PackageId>NextSI.Domain.Core</PackageId>
     <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>

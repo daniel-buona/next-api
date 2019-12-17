@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <AssemblyName>Equinox.Domain</AssemblyName>
-    <PackageId>Equinox.Domain</PackageId>
+    <AssemblyName>NextSI.Domain</AssemblyName>
+    <PackageId>NextSI.Domain</PackageId>
     <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Equinox.Domain.Core\NextSI.Domain.Core.csproj" />
+    <ProjectReference Include="..\NextSI.Domain.Core\NextSI.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>

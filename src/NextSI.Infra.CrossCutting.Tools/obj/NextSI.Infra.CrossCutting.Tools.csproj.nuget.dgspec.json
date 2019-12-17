@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Edesoft\\Next\\NextSIApp\\src\\NextSI.Infra.CrossCutting.Tools\\NextSI.Infra.CrossCutting.Tools.csproj": {}
+    "C:\\Edesoft\\Next\\next-api\\src\\NextSI.Infra.CrossCutting.Tools\\NextSI.Infra.CrossCutting.Tools.csproj": {}
   },
   "projects": {
-    "C:\\Edesoft\\Next\\NextSIApp\\src\\NextSI.Infra.CrossCutting.Tools\\NextSI.Infra.CrossCutting.Tools.csproj": {
+    "C:\\Edesoft\\Next\\next-api\\src\\NextSI.Infra.CrossCutting.Tools\\NextSI.Infra.CrossCutting.Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Edesoft\\Next\\NextSIApp\\src\\NextSI.Infra.CrossCutting.Tools\\NextSI.Infra.CrossCutting.Tools.csproj",
+        "projectUniqueName": "C:\\Edesoft\\Next\\next-api\\src\\NextSI.Infra.CrossCutting.Tools\\NextSI.Infra.CrossCutting.Tools.csproj",
         "projectName": "NextSI.Infra.CrossCutting.Tools",
-        "projectPath": "C:\\Edesoft\\Next\\NextSIApp\\src\\NextSI.Infra.CrossCutting.Tools\\NextSI.Infra.CrossCutting.Tools.csproj",
+        "projectPath": "C:\\Edesoft\\Next\\next-api\\src\\NextSI.Infra.CrossCutting.Tools\\NextSI.Infra.CrossCutting.Tools.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Edesoft\\Next\\NextSIApp\\src\\NextSI.Infra.CrossCutting.Tools\\obj\\",
+        "outputPath": "C:\\Edesoft\\Next\\next-api\\src\\NextSI.Infra.CrossCutting.Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

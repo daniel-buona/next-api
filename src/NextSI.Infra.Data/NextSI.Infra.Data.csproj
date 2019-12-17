@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <AssemblyName>Equinox.Infra.Data</AssemblyName>
-    <PackageId>Equinox.Infra.Data</PackageId>
+    <AssemblyName>NextSI.Infra.Data</AssemblyName>
+    <PackageId>NextSI.Infra.Data</PackageId>
     <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
@@ -44,8 +44,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\NextSI.Infra.CrossCutting.Tools\NextSI.Infra.CrossCutting.Tools.csproj" />
-    <ProjectReference Include="..\Equinox.Domain\NextSI.Domain.csproj" />
+    <ProjectReference Include="..\NextSI.Infra.CrossCutting.Tools\NextSI.Infra.CrossCutting.Tools.csproj" />
+    <ProjectReference Include="..\NextSI.Domain\NextSI.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
