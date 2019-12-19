@@ -5,7 +5,6 @@
         public int UsuarioId { get; set; }
         public int GrupoUsuariosId { get; set; }
 
-        public virtual GrupoUsuariosDto GrupoUsuario { get; set; }
-        public virtual UsuarioDto Usuario { get; set; }
+
     }
 }

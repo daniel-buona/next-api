@@ -28,6 +28,7 @@ namespace NextSI.Infra.CrossCutting.IoC
             services.AddScoped<IAreaAppService, AreaAppService>();
             services.AddScoped<ICalendarioTrabalhoAppService, CalendarioTrabalhoAppService>();
             services.AddScoped<IServidorLdapAppService, ServidorLdapAppService>();
+            services.AddScoped<ITipoEntidadeAppService, TipoEntidadeAppService>();
             #endregion
             #endregion
 

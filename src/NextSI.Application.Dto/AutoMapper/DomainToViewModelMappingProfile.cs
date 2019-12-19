@@ -18,10 +18,7 @@ namespace NextSI.Application.Dto.AutoMapper
                     .ForMember(s => s.Area, c => c.MapFrom(m => m.Area))
                     .ForMember(s => s.CalendarioTrabalho, c => c.MapFrom(m => m.CalendarioTrabalho))
                     .ForMember(s => s.ServidorLdap, c => c.MapFrom(m => m.ServidorLdap));
-            CreateMap<UsuarioGrupoUsuarios, UsuarioGrupoUsuariosDto>()
-                    .ForPath(s => s.Usuario.Nome, c => c.MapFrom(m => m.Usuario.Nome))
-                    .ForPath(s => s.Usuario.Email, c => c.MapFrom(m => m.Usuario.Email))
-                    .ForPath(s => s.GrupoUsuario.Nome, c => c.MapFrom(m => m.GrupoUsuarios.Nome));
+            CreateMap<UsuarioGrupoUsuarios, UsuarioGrupoUsuariosDto>();
 
             #endregion
             CreateMap<AreaDto, AreaDto>();

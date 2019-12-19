@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace NextSI.Services.Api.Controllers.Modules.Configuration.Usuarios
 {
-    [Route("api/Module/Configuration/Usuarios/[controller]")]
+    [Route("api/Module/Configuration/[controller]")]
     [ApiController]
     public class UsuarioController : ApiController
     {
