@@ -1,0 +1,11 @@
+C:\Edesoft\Next\next-api\src\NextSI.Domain\bin\Debug\netcoreapp3.0\NextSI.Domain.deps.json
+C:\Edesoft\Next\next-api\src\NextSI.Domain\bin\Debug\netcoreapp3.0\NextSI.Domain.dll
+C:\Edesoft\Next\next-api\src\NextSI.Domain\bin\Debug\netcoreapp3.0\NextSI.Domain.pdb
+C:\Edesoft\Next\next-api\src\NextSI.Domain\bin\Debug\netcoreapp3.0\NextSI.Domain.Core.dll
+C:\Edesoft\Next\next-api\src\NextSI.Domain\bin\Debug\netcoreapp3.0\NextSI.Domain.Core.pdb
+C:\Edesoft\Next\next-api\src\NextSI.Domain\obj\Debug\netcoreapp3.0\NextSI.Domain.csprojAssemblyReference.cache
+C:\Edesoft\Next\next-api\src\NextSI.Domain\obj\Debug\netcoreapp3.0\NextSI.Domain.AssemblyInfoInputs.cache
+C:\Edesoft\Next\next-api\src\NextSI.Domain\obj\Debug\netcoreapp3.0\NextSI.Domain.AssemblyInfo.cs
+C:\Edesoft\Next\next-api\src\NextSI.Domain\obj\Debug\netcoreapp3.0\NextSI.Domain.csproj.CopyComplete
+C:\Edesoft\Next\next-api\src\NextSI.Domain\obj\Debug\netcoreapp3.0\NextSI.Domain.dll
+C:\Edesoft\Next\next-api\src\NextSI.Domain\obj\Debug\netcoreapp3.0\NextSI.Domain.pdb

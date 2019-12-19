@@ -21,7 +21,7 @@ namespace NextSI.Services.Api.Controllers.Modules.Configuration
         }
 
         [HttpGet]
-        [Route("area-management")]
+        [Route("tipo-entidade-management")]
         public IActionResult Get()
         {
             List<TipoEntidadeDto> model = _tipoEntidadeAppService.Get();
@@ -29,7 +29,7 @@ namespace NextSI.Services.Api.Controllers.Modules.Configuration
         }
 
         [HttpGet]
-        [Route("area-management/{id:int}")]
+        [Route("tipo-entidade-management/{id:int}")]
         public IActionResult Get(int id)
         {
             var model = _tipoEntidadeAppService.Get(id);

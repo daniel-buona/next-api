@@ -1,0 +1,8 @@
+C:\Edesoft\Next\next-api\src\NextSI.Infra.CrossCutting.Tools\bin\Debug\netcoreapp3.0\NextSI.Infra.CrossCutting.Tools.deps.json
+C:\Edesoft\Next\next-api\src\NextSI.Infra.CrossCutting.Tools\bin\Debug\netcoreapp3.0\NextSI.Infra.CrossCutting.Tools.dll
+C:\Edesoft\Next\next-api\src\NextSI.Infra.CrossCutting.Tools\bin\Debug\netcoreapp3.0\NextSI.Infra.CrossCutting.Tools.pdb
+C:\Edesoft\Next\next-api\src\NextSI.Infra.CrossCutting.Tools\obj\Debug\netcoreapp3.0\NextSI.Infra.CrossCutting.Tools.csprojAssemblyReference.cache
+C:\Edesoft\Next\next-api\src\NextSI.Infra.CrossCutting.Tools\obj\Debug\netcoreapp3.0\NextSI.Infra.CrossCutting.Tools.AssemblyInfoInputs.cache
+C:\Edesoft\Next\next-api\src\NextSI.Infra.CrossCutting.Tools\obj\Debug\netcoreapp3.0\NextSI.Infra.CrossCutting.Tools.AssemblyInfo.cs
+C:\Edesoft\Next\next-api\src\NextSI.Infra.CrossCutting.Tools\obj\Debug\netcoreapp3.0\NextSI.Infra.CrossCutting.Tools.dll
+C:\Edesoft\Next\next-api\src\NextSI.Infra.CrossCutting.Tools\obj\Debug\netcoreapp3.0\NextSI.Infra.CrossCutting.Tools.pdb
