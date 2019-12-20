@@ -1,8 +1,0 @@
-C:\Edesoft\Next\next-api\src\NextSI.Domain.Core\bin\Debug\netcoreapp3.0\NextSI.Domain.Core.deps.json
-C:\Edesoft\Next\next-api\src\NextSI.Domain.Core\bin\Debug\netcoreapp3.0\NextSI.Domain.Core.dll
-C:\Edesoft\Next\next-api\src\NextSI.Domain.Core\bin\Debug\netcoreapp3.0\NextSI.Domain.Core.pdb
-C:\Edesoft\Next\next-api\src\NextSI.Domain.Core\obj\Debug\netcoreapp3.0\NextSI.Domain.Core.csprojAssemblyReference.cache
-C:\Edesoft\Next\next-api\src\NextSI.Domain.Core\obj\Debug\netcoreapp3.0\NextSI.Domain.Core.AssemblyInfoInputs.cache
-C:\Edesoft\Next\next-api\src\NextSI.Domain.Core\obj\Debug\netcoreapp3.0\NextSI.Domain.Core.AssemblyInfo.cs
-C:\Edesoft\Next\next-api\src\NextSI.Domain.Core\obj\Debug\netcoreapp3.0\NextSI.Domain.Core.dll
-C:\Edesoft\Next\next-api\src\NextSI.Domain.Core\obj\Debug\netcoreapp3.0\NextSI.Domain.Core.pdb
