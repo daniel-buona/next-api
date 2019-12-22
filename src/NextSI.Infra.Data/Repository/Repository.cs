@@ -21,8 +21,10 @@ namespace NextSI.Infra.Data.Repository
         public virtual void Add(TEntity obj)
         {
             // TODO: Salvar a data de inclusão
-            (obj as BaseEntity).InsertHora = DateTime.Now;
-            (obj as BaseEntity).Excluido = 'N';
+            if(obj.GetType().GetProperty("InsertHora") != null)
+                (obj as BaseEntity).InsertHora = DateTime.Now;
+            if (obj.GetType().GetProperty("Excluido") != null)
+                (obj as BaseEntity).Excluido = 'N';
             DbSet.Add(obj);
         }
 

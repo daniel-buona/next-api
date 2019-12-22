@@ -8,6 +8,7 @@ using System.Linq;
 using NextSI.Application.Interfaces.Modules.Configuration.Usuarios;
 using NextSI.Domain.Interfaces.Modules.Configuration.Usuarios;
 using NextSI.Application.Dto.Models.Modules.Configuration.Usuarios;
+using NextSI.Infra.Data.Repository;
 
 namespace NextSI.Application.Services.Modules.Configuration
 {
@@ -15,14 +16,17 @@ namespace NextSI.Application.Services.Modules.Configuration
     {
         private readonly IMapper _mapper;
         private readonly IGrupoUsuariosRepository _grupoUsuariosRepository;
+        private readonly IUsuarioGrupoUsuariosRepository _usuarioGrupoUsuariosRepository;
         private readonly IUnitOfWork _wow;
 
         public GrupoUsuariosAppService(IUnitOfWork wow,
                                   IMapper mapper,
-                                  IGrupoUsuariosRepository grupoUsuariosRepository)
+                                  IGrupoUsuariosRepository grupoUsuariosRepository,
+                                  IUsuarioGrupoUsuariosRepository usuarioGrupoUsuariosRepository)
         {
             _mapper = mapper;
             _grupoUsuariosRepository = grupoUsuariosRepository;
+            _usuarioGrupoUsuariosRepository = usuarioGrupoUsuariosRepository;
             _wow = wow;
         }
 
@@ -77,8 +81,26 @@ namespace NextSI.Application.Services.Modules.Configuration
             _wow.BeginTransaction();
             try
             {
-                var customer = _mapper.Map<GrupoUsuarios>(Model);
+                var grupoUsuario = _grupoUsuariosRepository.GetById(Model.Id);
+                var usuariosAntigos = grupoUsuario.Usuarios;
+                
+                var customer = _mapper.Map(Model, grupoUsuario);
                 _grupoUsuariosRepository.Update(customer);
+                
+                var usuariosAtuais = customer.Usuarios;
+                var usuariosRemovidos = usuariosAntigos.Where(usuarioAtual => !usuariosAtuais.Any(usuarioNovo => usuarioNovo.UsuarioId == usuarioAtual.UsuarioId)).ToList();
+                var usuariosAdicionados = usuariosAtuais.Where(usuarioNovo => !usuariosAntigos.Any(usuarioAtual => usuarioAtual.UsuarioId == usuarioNovo.UsuarioId)).ToList();
+                  
+                foreach(var usuario in usuariosRemovidos)
+                {
+                    _usuarioGrupoUsuariosRepository.Remove(usuario);
+                }
+
+                foreach(var usuario in usuariosAdicionados)
+                {
+                    _usuarioGrupoUsuariosRepository.Add(usuario);
+                }
+                
                 _wow.Commit();
                 return _mapper.Map<GrupoUsuariosDto>(customer);
             }

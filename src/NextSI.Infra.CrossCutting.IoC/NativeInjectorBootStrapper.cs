@@ -40,6 +40,7 @@ namespace NextSI.Infra.CrossCutting.IoC
             services.AddScoped<IAreaRepository, AreaRepository>();
             services.AddScoped<ICalendarioTrabalhoRepository, CalendarioTrabalhoRepository>();
             services.AddScoped<IServidorLdapRepository, ServidorLdapRepository>();
+            services.AddScoped<IUsuarioGrupoUsuariosRepository, UsuarioGrupoUsuariosRepository>();
             #endregion
             #endregion
         }

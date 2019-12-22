@@ -43,7 +43,7 @@ namespace NextSI.Services.Api.Controllers.Modules.Configuration.Usuarios
                 return Response(model);
             }
 
-            return Response(_grupoUsuariosAppService.Update(model));
+            return Response(_grupoUsuariosAppService.Register(model));
         }
 
         [HttpPut]
